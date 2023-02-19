@@ -1,0 +1,118 @@
+.contacts {
+  height: 70vh;
+  background: url("/escritorio.webp") no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+  font-family: var(--font);
+  color: #fff;
+  background-position-y: center;
+  overflow: hidden;
+
+  .bg {
+    background-color: #000000d6;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .ex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+
+      .logo {
+        display: flex;
+
+        img {
+          width: 60px;
+          height: 60px;
+          margin-right: 15px;
+        }
+        .title {
+          font-weight: 700;
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 20px;
+        }
+      }
+
+      h3 {
+        font-size: 20px;
+        padding: 20px 0px;
+      }
+
+      .profile {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 60px 0px;
+
+        img {
+          width: 60px;
+          cursor: pointer;
+          transition: all 0.1s;
+
+          &:hover {
+            transform: translateY(-1px);
+          }
+        }
+      }
+      strong {
+        color: #697285;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      background-color: #00000098;
+      padding: 20px 40px;
+      border-radius: 10px;
+
+      h1 {
+        font-size: 20px;
+      }
+
+      input,
+      textarea {
+        border: 0;
+        margin: 10px 0px;
+        padding: 5px 10px;
+        font-size: 17px;
+        resize: none;
+        outline: none;
+        color: #fff;
+        border-radius: 3px;
+        background-color: #f4f3f317;
+      }
+
+      button {
+        margin-top: 10px;
+        background-color: #ed3333;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+        width: max-content;
+        padding: 10px 20px;
+        font-size: 15px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    height: max-content;
+
+    .bg {
+      padding: 30px 0px;
+      flex-direction: column-reverse;
+
+      .ex {
+        margin: 40px 0px;
+      }
+    }
+  }
+}

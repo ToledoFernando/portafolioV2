@@ -4,6 +4,7 @@ import style from "@/styles/Navbar.module.scss";
 function NavBar({ children }) {
   const bg = useRef();
   const [op, setOp] = useState(0);
+  const [menu, setMenu] = useState(false);
 
   const nv = (e) => {
     // console.log(Math.round(e.target.scrollingElement.scrollTop));
@@ -18,6 +19,16 @@ function NavBar({ children }) {
         "style",
         "background-color: #00000000; backdrop-filter: blur(0px)"
       );
+    }
+  };
+
+  const showMenu = () => {
+    if (!menu) {
+      console.log("MENU EXTENDIDO");
+      setMenu(true);
+    } else {
+      setMenu(false);
+      console.log("Menu Escondido");
     }
   };
 
@@ -36,18 +47,31 @@ function NavBar({ children }) {
               <h2>Developer - Full Stack</h2>
             </div>
           </div>
-          <ul>
+          <div className={style.menu} onClick={showMenu}>
+            <div className={menu ? style.at : style.al}></div>
+            <div className={menu ? style.ac : style.al}></div>
+            <div className={menu ? style.ab : style.al}></div>
+          </div>
+          <ul className={menu ? style.navS : style.navH}>
             <li>
-              <a href="#">Inicio</a>
+              <a href="#" onClick={() => setMenu(false)}>
+                Inicio
+              </a>
             </li>
             <li>
-              <a href="#about">Sobre mi</a>
+              <a href="#about" onClick={() => setMenu(false)}>
+                Sobre mi
+              </a>
             </li>
             <li>
-              <a href="#">Proyectos</a>
+              <a href="#proyects" onClick={() => setMenu(false)}>
+                Proyectos
+              </a>
             </li>
             <li>
-              <a href="#">Contacto</a>
+              <a href="#contact" onClick={() => setMenu(false)}>
+                Contacto
+              </a>
             </li>
           </ul>
         </div>

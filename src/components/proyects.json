@@ -1,52 +1,42 @@
 [
   {
     "title": "PF - Dinamita Hostel",
-    "info": "Proyecto final/Grupal del Bootcamp SoyHenry en donde trabaje junto a otros 6 desarrolladores FullStack",
-    "tech": [
-      "HTML5",
-      "CSS3",
-      "Javascript",
-      "ReactJS",
-      "Redux",
-      "NodeJS",
-      "Express",
-      "PostgreSQL",
-      "Sequelize"
-    ],
-    "repo": "https://github.com/kripto-c/HostelProject"
+    "subtitle": "Proyecto Final",
+    "info": "Proyecto en el que trabaje junto a otros 6 desarrolladores FullStack del BootCamp SoyHenry",
+    "tech": "Javascript - ReactJS - Redux - NodeJS - Express - PostgreSQL - Sequelize",
+    "repo": "https://github.com/kripto-c/HostelProject",
+    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/dinamitaHostelProyect.png?alt=media&token=e2f64f9a-04d3-4e5c-b177-f24db6420505"
   },
   {
-    "title": "Mi Portafolio",
-    "info": "Mi Portafolio en el que sigo trabajando y actualizo constantemente...",
-    "tech": ["HTML5", "SASS", "Javascript", "ReactJS"],
-    "repo": "https://github.com/ToledoFernando/MiPortafolio"
+    "title": "Mi Portafolio v1",
+    "subtitle": "Primer Portafolio",
+    "info": "Mi primer Portafolio web en el cual trabaje usando ReactJS, Sass, entre otras tecnologias",
+    "tech": "SASS - Javascript - ReactJS",
+    "repo": "https://github.com/ToledoFernando/MiPortafolio",
+    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/MiPortafolio.png?alt=media&token=79c44c0f-7feb-4691-9448-15519915ab84"
   },
   {
     "title": "PI - Proyecto individual",
-    "info": "Una App que muestra diferentes tipos de recetas",
-    "tech": [
-      "HTML5",
-      "CSS3",
-      "Javascript",
-      "ReactJS",
-      "Redux",
-      "NodeJS",
-      "Express",
-      "PostgreSQL",
-      "Sequelize"
-    ],
-    "repo": "https://github.com/ToledoFernando/HenryFood"
+    "subtitle": "Proyecto Individual",
+    "info": "Aplicacion web que muestra diferentes tipo de recetas y permite agregar nuevas",
+    "tech": "Javascript - ReactJS - Redux - NodeJS - Express - PostgreSQL - Sequelize",
+    "repo": "https://github.com/ToledoFernando/HenryFood",
+    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/pi.png?alt=media&token=247bcaa2-37f4-43a6-9274-2f7415ce3bad"
   },
   {
-    "title": "App Rick y Morty",
-    "info": "Una aplicacion consumiendo la API de Rick y Morty",
-    "tech": ["HTML5", "CSS3", "Javascript", "ReactJS"],
-    "repo": "https://github.com/ToledoFernando/Rick-y-Morty_Prueba"
+    "title": "Rick y Morty App",
+    "subtitle": "Web con api de Rick y Morty",
+    "info": "Una aplicacion consumiendo la API de Rick y Morty para ver personajes, capitulos y lugares",
+    "tech": "Javascript - ReactJS",
+    "repo": "https://github.com/ToledoFernando/Rick-y-Morty_Prueba",
+    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/rick%20and%20morty.png?alt=media&token=26338eae-9f01-4f0e-b0e8-f545f0221bd1"
   },
   {
     "title": "Generador de contraseña",
-    "info": "Generador de contraseña de 8 a 30 digitos",
-    "tech": ["HTML5", "CSS3", "Javascript", "ReactJS"],
-    "repo": "https://github.com/ToledoFernando/GeneratorPassword"
+    "subtitle": "Contraseñas Aleatorio",
+    "info": "Crea Contraseñas aleatorio de 8 a 30 digitos, incluyen numeros, letras y simbolos",
+    "tech": "Javascript - ReactJS",
+    "repo": "https://github.com/ToledoFernando/GeneratorPassword",
+    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/generator.png?alt=media&token=e826e37e-e2a1-4763-bda7-e8e53d0ceb2f"
   }
 ]

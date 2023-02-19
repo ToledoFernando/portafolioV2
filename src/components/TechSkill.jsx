@@ -16,7 +16,6 @@ function TechSkill() {
           <li title="ReactJS">ReactJS</li>
           <li title="Redux">Redux</li>
         </ul>
-        <span className={style.dv}></span>
       </div>
       <div>
         <img src="/back.svg" alt="" />
@@ -31,7 +30,6 @@ function TechSkill() {
           <li title="MongoDB">MongoDB</li>
           <li title="Mongoose">Mongoose</li>
         </ul>
-        <span className={style.dv}></span>
       </div>
       <div>
         <img src="/h.svg" alt="" />

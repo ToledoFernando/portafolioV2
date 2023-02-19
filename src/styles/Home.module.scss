@@ -1,6 +1,6 @@
 .hm {
   font-family: var(--font);
-  height: 100vh;
+  height: 101vh;
   width: 100%;
   background: url("/escritorio.webp") no-repeat;
   background-size: cover;
@@ -47,9 +47,33 @@
           font-size: 20px;
           margin-top: 70px;
           cursor: pointer;
+          outline: none;
 
           &:hover {
             background-color: #e32c2c;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .hmb {
+      .container {
+        margin-left: 10px;
+
+        .p {
+          width: 100%;
+          .bv {
+            font-size: 25px;
+          }
+          .sy {
+            font-size: 50px;
+            font-weight: 700;
+          }
+          .ds {
+            font-size: 30px;
+            font-weight: 700;
           }
         }
       }

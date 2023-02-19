@@ -4,27 +4,21 @@
   font-family: var(--font);
   justify-content: center;
   position: relative;
+  height: max-content;
+  flex-wrap: wrap;
 
   div {
-    height: max-content;
-    padding-bottom: 90px;
-    padding-top: 90px;
+    padding: 40px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 28%;
+    min-width: 300px;
+    margin: 30px 10px;
     gap: 30px;
     position: relative;
-
-    .dv {
-      position: absolute;
-      right: 0;
-      top: 10%;
-      height: 80%;
-      width: 2px;
-      background-color: #2d3748;
-      opacity: 10%;
-    }
+    background-color: #fff;
+    border-radius: 20px;
 
     img {
       width: 100px;
@@ -34,8 +28,7 @@
       font-size: 30px;
     }
     p {
-      width: 300px;
-      margin: auto;
+      width: 80%;
     }
     ul {
       width: 70%;

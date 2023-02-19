@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-weight: 30;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -17,7 +18,7 @@
   --html: #d9461e;
   --css: #1e5cd9;
   --scss: #d91ec3;
-  --js: #b3bf32;
+  --js: #d6e721;
   --nd: #29a129;
   --ex: #464545;
 }
