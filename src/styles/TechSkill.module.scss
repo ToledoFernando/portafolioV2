@@ -3,6 +3,7 @@
   display: flex;
   font-family: var(--font);
   justify-content: center;
+  position: relative;
 
   div {
     height: max-content;
@@ -13,6 +14,17 @@
     align-items: center;
     width: 30%;
     gap: 30px;
+    position: relative;
+
+    .dv {
+      position: absolute;
+      right: 0;
+      top: 10%;
+      height: 80%;
+      width: 2px;
+      background-color: #2d3748;
+      opacity: 10%;
+    }
 
     img {
       width: 100px;
@@ -21,8 +33,76 @@
       font-weight: 800;
       font-size: 30px;
     }
+    p {
+      width: 300px;
+      margin: auto;
+    }
     ul {
       width: 70%;
+      li {
+        width: max-content;
+        transition: 0.1s;
+        cursor: pointer;
+      }
+
+      li[title="HTML5"],
+      li[title="Mongoose"],
+      li[title="Git"] {
+        &:hover {
+          color: var(--html);
+          text-shadow: 0px 0px 5px var(--html);
+        }
+      }
+      li[title="CSS3"],
+      li[title="Typescript"],
+      li[title="PostgreSQL"],
+      li[title="Sequelize"],
+      li[title="Visual"],
+      li[title="Canvas"],
+      li[title="ReactJS"] {
+        &:hover {
+          color: var(--css);
+          text-shadow: 0px 0px 5px var(--css);
+        }
+      }
+      li[title="SASS"],
+      li[title="Redux"] {
+        &:hover {
+          color: var(--scss);
+          text-shadow: 0px 0px 5px var(--scss);
+        }
+      }
+      li[title="Javascript"] {
+        &:hover {
+          color: var(--js);
+          text-shadow: 0px 0px 5px var(--js);
+        }
+      }
+      li[title="NodeJS"],
+      li[title="MongoDB"] {
+        &:hover {
+          color: var(--nd);
+          text-shadow: 0px 0px 5px var(--nd);
+        }
+      }
+      li[title="Express"],
+      li[title="GitHub"] {
+        &:hover {
+          color: var(--ex);
+          text-shadow: 0px 0px 5px var(--ex);
+        }
+      }
     }
+  }
+
+  .span {
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    left: 7.5%;
+    right: 7.5%;
+    height: 2px;
+    background-color: #2d3748;
+    opacity: 50%;
   }
 }
