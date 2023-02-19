@@ -1,0 +1,52 @@
+[
+  {
+    "title": "PF - Dinamita Hostel",
+    "info": "Proyecto final/Grupal del Bootcamp SoyHenry en donde trabaje junto a otros 6 desarrolladores FullStack",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "ReactJS",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "PostgreSQL",
+      "Sequelize"
+    ],
+    "repo": "https://github.com/kripto-c/HostelProject"
+  },
+  {
+    "title": "Mi Portafolio",
+    "info": "Mi Portafolio en el que sigo trabajando y actualizo constantemente...",
+    "tech": ["HTML5", "SASS", "Javascript", "ReactJS"],
+    "repo": "https://github.com/ToledoFernando/MiPortafolio"
+  },
+  {
+    "title": "PI - Proyecto individual",
+    "info": "Una App que muestra diferentes tipos de recetas",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "ReactJS",
+      "Redux",
+      "NodeJS",
+      "Express",
+      "PostgreSQL",
+      "Sequelize"
+    ],
+    "repo": "https://github.com/ToledoFernando/HenryFood"
+  },
+  {
+    "title": "App Rick y Morty",
+    "info": "Una aplicacion consumiendo la API de Rick y Morty",
+    "tech": ["HTML5", "CSS3", "Javascript", "ReactJS"],
+    "repo": "https://github.com/ToledoFernando/Rick-y-Morty_Prueba"
+  },
+  {
+    "title": "Generador de contraseña",
+    "info": "Generador de contraseña de 8 a 30 digitos",
+    "tech": ["HTML5", "CSS3", "Javascript", "ReactJS"],
+    "repo": "https://github.com/ToledoFernando/GeneratorPassword"
+  }
+]
