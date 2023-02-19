@@ -11,9 +11,7 @@ function Hm() {
             <p className={style.ds}>y soy desarrollador Full Stack</p>
             <button className={style.bt}>Sobre mi</button>
           </div>
-          <div className={style.ev}>
-            <h1>Hello world</h1>
-          </div>
+          <div className={style.ev}>{/* <h1>Hello world</h1> */}</div>
         </div>
       </div>
     </div>

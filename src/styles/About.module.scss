@@ -1,15 +1,18 @@
 .about {
   display: flex;
   background-color: var(--bg-1);
-  height: 80vh;
+  height: max-content;
+  padding: 90px 0px;
   font-family: var(--font);
   position: relative;
 
   .ac {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    // height: max-content;
 
     .img {
       img {
@@ -65,5 +68,16 @@
     position: absolute;
     bottom: 0;
     left: 7.5%;
+  }
+
+  @media screen and (max-width: 700px) {
+    .ac {
+      flex-direction: column-reverse;
+      gap: 0;
+
+      .info {
+        width: 85%;
+      }
+    }
   }
 }
