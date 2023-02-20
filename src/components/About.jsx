@@ -13,10 +13,7 @@ function About() {
             width={350}
             height={350}
           />
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=toledof764@gmail.com"
-            target="_blank"
-          >
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=toledof764@gmail.com">
             Email de contacto
           </a>
         </div>

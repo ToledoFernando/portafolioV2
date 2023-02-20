@@ -50,6 +50,10 @@
           margin-top: 70px;
           cursor: pointer;
           outline: none;
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
 
           &:hover {
             background-color: #e32c2c;

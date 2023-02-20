@@ -9,7 +9,9 @@ function Hm() {
             <p className={style.bv}>Bienvenido a mi portafolio web</p>
             <p className={style.sy}>Soy Toledo Fernando</p>
             <p className={style.ds}>y soy desarrollador Full Stack</p>
-            <button className={style.bt}>Sobre mi</button>
+            <button className={style.bt}>
+              <a href="#about">Sobre mi</a>
+            </button>
           </div>
           <div className={style.ev}>
             {/* <img src="/pc.png" alt="logo pc" /> */}
