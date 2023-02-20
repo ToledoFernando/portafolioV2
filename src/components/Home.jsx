@@ -11,7 +11,10 @@ function Hm() {
             <p className={style.ds}>y soy desarrollador Full Stack</p>
             <button className={style.bt}>Sobre mi</button>
           </div>
-          <div className={style.ev}>{/* <h1>Hello world</h1> */}</div>
+          <div className={style.ev}>
+            {/* <img src="/pc.png" alt="logo pc" /> */}
+            <img src="/phone.png" alt="logo movil" />
+          </div>
         </div>
       </div>
     </div>

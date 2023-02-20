@@ -11,19 +11,21 @@
     height: 100%;
     background-color: #000000d6;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     .container {
-      //   background-color: red;
       display: flex;
+      flex-wrap: wrap;
       width: 100%;
-      margin-left: 70px;
+      margin-left: 2%;
 
       .p {
         color: #fff;
-        width: max-content;
-        // background-color: green;
+        width: 55%;
+        padding-left: 3%;
+        min-width: 300px;
+        // background-color: red;
 
         .bv {
           font-size: 30px;
@@ -54,11 +56,55 @@
           }
         }
       }
+
+      .ev {
+        position: relative;
+        height: 300px;
+        width: 40%;
+        background: url("/pc.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: imgA 0.8s 0s forwards;
+        transform: translateX(-60px);
+        opacity: 0;
+        // display: flex;
+
+        img {
+          position: absolute;
+
+          // &:nth-child(1) {
+          width: 300px;
+          height: 300px;
+          bottom: -10px;
+          right: 0;
+          transform: translateX(60px);
+          opacity: 0;
+          animation: imgA 0.9s 0.3s forwards;
+          // }
+          @keyframes imgA {
+            100% {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+        }
+
+        // @media screen and (max-width: 960px) {
+        //   width: 85%;
+        // }
+      }
+      @media screen and (max-width: 960px) {
+        padding-top: 100px;
+      }
     }
   }
 
   @media screen and (max-width: 650px) {
+    height: max-content;
     .hmb {
+      padding: 80px 0px 80px 0px;
+      height: calc(100% - 50px);
       .container {
         margin-left: 10px;
 
@@ -74,6 +120,14 @@
           .ds {
             font-size: 30px;
             font-weight: 700;
+          }
+        }
+        .ev {
+          width: 85%;
+          margin: auto;
+
+          img {
+            right: 5%;
           }
         }
       }

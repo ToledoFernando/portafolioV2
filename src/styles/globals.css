@@ -7,6 +7,11 @@
   font-weight: 30;
   scroll-behavior: smooth;
 }
+
+html {
+  overflow-x: auto;
+}
+
 body::-webkit-scrollbar {
   -webkit-appearance: none;
 }
