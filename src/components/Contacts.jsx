@@ -1,4 +1,5 @@
 import React from "react";
+import { openGH, openLK } from "./openLink";
 import style from "@/styles/Contacts.module.scss";
 
 const initial = {
@@ -64,7 +65,7 @@ function Contacts() {
       },
       body: JSON.stringify(datos),
     });
-    const json = await response.json();
+    await response.json();
 
     setCargando(false);
   };
@@ -82,8 +83,8 @@ function Contacts() {
           </div>
           <h3>Puedes revisar mi perfil en LinkedIn y GitHub</h3>
           <div className={style.profile}>
-            <img src="/linkedin.svg" alt="profile Linkedin" />
-            <img src="/github.svg" alt="profile Github" />
+            <img onClick={openLK} src="/linkedin.svg" alt="profile Linkedin" />
+            <img onClick={openGH} src="/github.svg" alt="profile Github" />
           </div>
           <strong>
             ©{new Date().getFullYear()} ftoledo.online | Toledo Web Developer
