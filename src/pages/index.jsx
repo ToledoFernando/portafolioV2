@@ -16,14 +16,15 @@ export default function Home() {
         <title>Toledo Dev | Desarrollador FullStack</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://www.ftoledo.online/" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="description"
+          content="Me llamo Toledo Fernando, este es mi portafolio web, aqui podras ver mis proyectos, un breve resumen de quien soy y que es lo que hago. Conocimientos en el Stack PERN y MERN, me gusta la programacion y siempre busco aprender mas"
+        />
         <meta
           name="keywords"
           content="developer, fullstack, full stack, PERN, MERN, frontend, backend, toledo, toledo dev, mongodb, postgresql, sequelize, mongoose"
         />
-        <meta
-          name="description"
-          content="Mira mis proyectos web, un breve resumen de quien soy y que es lo que hago. Conocimientos en el Stack PERN y MERN, me gusta la programacion y siempre busco aprender mas"
-        ></meta>
         <link rel="icon" href="/favicon.ico" />
         <meta name="next-head-count" content="14" />
       </Head>
