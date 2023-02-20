@@ -90,6 +90,30 @@
         background-color: #f4f3f317;
       }
 
+      input[class="invalid"],
+      textarea[class="invalid"] {
+        background-color: #c1646417;
+        border: 1px solid #ed3333;
+        animation: error 0.5s;
+
+        @keyframes error {
+          20%,
+          40%,
+          60% {
+            transform: translateX(3px);
+          }
+          30%,
+          50%,
+          70% {
+            transform: translateX(-3px);
+          }
+        }
+
+        &::placeholder {
+          color: #ca1414b4;
+        }
+      }
+
       button {
         margin-top: 10px;
         background-color: #ed3333;
@@ -99,6 +123,16 @@
         width: max-content;
         padding: 10px 20px;
         font-size: 15px;
+
+        &:disabled {
+          background-color: #b85959;
+          cursor: no-drop;
+        }
+
+        img {
+          width: 50px;
+          height: 19px;
+        }
       }
     }
   }

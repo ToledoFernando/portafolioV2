@@ -9,6 +9,12 @@ function About() {
             src="https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/perfil2.jpg?alt=media&token=da2387d9-496c-4db4-a19a-da6aa88d49e6"
             alt="Toledo Fernando"
           />
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=toledof764@gmail.com"
+            target="_blank"
+          >
+            Email de contacto
+          </a>
         </div>
         <div className={style.info}>
           <h5>Sobre Mi</h5>
