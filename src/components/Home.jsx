@@ -6,9 +6,9 @@ function Hm() {
       <div className={style.hmb}>
         <div className={style.container}>
           <div className={style.p}>
-            <p className={style.bv}>Bienvenido a mi portafolio web</p>
-            <p className={style.sy}>Soy Toledo Fernando</p>
-            <p className={style.ds}>y soy desarrollador Full Stack</p>
+            <h2 className={style.bv}>Bienvenido a mi portafolio web</h2>
+            <h1 className={style.sy}>Soy Toledo Fernando</h1>
+            <h3 className={style.ds}>y soy desarrollador Full Stack</h3>
             <button className={style.bt}>
               <a href="#about">Sobre mi</a>
             </button>
