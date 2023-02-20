@@ -7,7 +7,25 @@
   font-weight: 30;
   scroll-behavior: smooth;
 }
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+body::-webkit-scrollbar {
+  background-color: #8f8f8f;
+}
+body::-webkit-scrollbar:vertical {
+  width: 10px;
+}
 
+body::-webkit-scrollbar-thumb {
+  background-color: #525252;
+  border-radius: 20px;
+  border: 0;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
 :root {
   /*variables*/
   --font: "Roboto", sans-serif;

@@ -15,9 +15,19 @@
     // height: max-content;
 
     .img {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
       img {
         width: 250px;
         border-radius: 48%;
+      }
+
+      a {
+        color: #0e0e0e;
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: 400;
       }
     }
     .info {
