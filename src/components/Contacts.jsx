@@ -1,6 +1,7 @@
 import React from "react";
 import { openGH, openLK } from "./openLink";
 import style from "@/styles/Contacts.module.scss";
+import email from "@emailjs/browser";
 
 const initial = {
   name: "",
@@ -57,17 +58,29 @@ function Contacts() {
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    if (!datos.name.length) return;
+    if (!datos.email.length) return;
+    if (!datos.asunto.length) return;
     setCargando(true);
-    const response = await fetch("http://localhost:8080/sendEmail", {
-      method: "POST",
+
+    fetch("/api/v", {
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(datos),
-    });
-    await response.json();
-
-    setCargando(false);
+    })
+      .then((response) => response.json())
+      .then((e) => {
+        email
+          .send(e.service, e.template, datos, e.publicKey)
+          .then((response) => {
+            setCargando(false);
+          })
+          .catch((err) => {
+            console.log(error);
+            setCargando(false);
+          });
+      });
   };
 
   return (
@@ -92,7 +105,7 @@ function Contacts() {
         </div>
         <div>
           <form onSubmit={sendEmail} id="contact">
-            <h1>Contactame</h1>
+            <h6>Contactame</h6>
             <input
               onBlur={validate}
               onChange={handleChange}

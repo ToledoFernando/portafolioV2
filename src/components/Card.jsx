@@ -7,24 +7,26 @@ function Card({ data }) {
   };
 
   return (
-    <div className={style.proyecto}>
+    <article className={style.proyecto}>
       <Image src={data.img} alt={data.title} width={300} height={170} />
       <div className={style.info}>
-        <h1>{data.title}</h1>
-        <h2>{data.subtitle}</h2>
+        <h2 className={style.title}>{data.title}</h2>
+        <h3 className={style.sub_title}>{data.subtitle}</h3>
         <p>{data.info}</p>
         <ul>
           <li>{data.tech}</li>
         </ul>
-        <img
+        <Image
           onClick={open}
           className={style.img}
           title={`Abrir - ${data.title}`}
           src="/code.svg"
-          alt=""
+          alt="Code Icon"
+          width={200}
+          height={30}
         />
       </div>
-    </div>
+    </article>
   );
 }
 

@@ -6,13 +6,13 @@ function Proyects() {
   return (
     <div className={style.proyects} id="proyects">
       <div className={style.st}>
-        <p>Proyectos</p>
+        <h4>Proyectos</h4>
       </div>
-      <div className={style.p}>
+      <section className={style.p}>
         {data.map((e) => (
           <Card key={e.title} data={e} />
         ))}
-      </div>
+      </section>
     </div>
   );
 }
