@@ -5,7 +5,7 @@
     "info": "Proyecto en el que trabaje junto a otros 6 desarrolladores FullStack del BootCamp SoyHenry",
     "tech": "Javascript - ReactJS - Redux - NodeJS - Express - PostgreSQL - Sequelize",
     "repo": "https://github.com/kripto-c/HostelProject",
-    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/dinamitaHostelProyect.png?alt=media&token=e2f64f9a-04d3-4e5c-b177-f24db6420505"
+    "img": "/hsdm.png"
   },
   {
     "title": "Mi Portafolio v1",
@@ -13,7 +13,7 @@
     "info": "Mi primer Portafolio web en el cual trabaje usando ReactJS, Sass, entre otras tecnologias",
     "tech": "SASS - Javascript - ReactJS",
     "repo": "https://github.com/ToledoFernando/MiPortafolio",
-    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/MiPortafolio.png?alt=media&token=79c44c0f-7feb-4691-9448-15519915ab84"
+    "img": "/MiPortafolio.png"
   },
   {
     "title": "PI - Proyecto individual",
@@ -21,7 +21,7 @@
     "info": "Aplicacion web que muestra diferentes tipo de recetas y permite agregar nuevas",
     "tech": "Javascript - ReactJS - Redux - NodeJS - Express - PostgreSQL - Sequelize",
     "repo": "https://github.com/ToledoFernando/HenryFood",
-    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/pi.png?alt=media&token=247bcaa2-37f4-43a6-9274-2f7415ce3bad"
+    "img": "/pi.png"
   },
   {
     "title": "Rick y Morty App",
@@ -29,7 +29,7 @@
     "info": "Una aplicacion consumiendo la API de Rick y Morty para ver personajes, capitulos y lugares",
     "tech": "Javascript - ReactJS",
     "repo": "https://github.com/ToledoFernando/Rick-y-Morty_Prueba",
-    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/rick%20and%20morty.png?alt=media&token=26338eae-9f01-4f0e-b0e8-f545f0221bd1"
+    "img": "/ram.png"
   },
   {
     "title": "Generador de contraseña",
@@ -37,6 +37,6 @@
     "info": "Crea Contraseñas aleatorio de 8 a 30 digitos, incluyen numeros, letras y simbolos",
     "tech": "Javascript - ReactJS",
     "repo": "https://github.com/ToledoFernando/GeneratorPassword",
-    "img": "https://firebasestorage.googleapis.com/v0/b/imgs-b915c.appspot.com/o/generator.png?alt=media&token=e826e37e-e2a1-4763-bda7-e8e53d0ceb2f"
+    "img": "/psg.png"
   }
 ]
