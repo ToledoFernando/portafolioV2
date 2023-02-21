@@ -1,12 +1,17 @@
 import style from "@/styles/TechSkill.module.scss";
+import Image from "next/image";
 
 function TechSkill() {
   return (
     <div className={style.tech}>
       <div>
-        <img src="/front.svg" alt="" />
-        <h2>Front End</h2>
-        <p>Conocimientos en tecnologías de desarrollo Front end.</p>
+        <Image src="/front.svg" alt="Front-End" width={300} height={100} />
+        <p className={style.title_Tech}>
+          <strong> Front End</strong>
+        </p>
+        <p className={style.p_Tech}>
+          Conocimientos en tecnologías de desarrollo Front end.
+        </p>
         <ul>
           <li title="HTML5">HTML5</li>
           <li title="CSS3">CSS3</li>
@@ -18,9 +23,13 @@ function TechSkill() {
         </ul>
       </div>
       <div>
-        <img src="/back.svg" alt="" />
-        <h2>Back End</h2>
-        <p>Conocimientos en tecnologias del lado del servidor</p>
+        <Image src="/back.svg" alt="Back-End" width={300} height={100} />
+        <p className={style.title_Tech}>
+          <strong>Back End</strong>
+        </p>
+        <p className={style.p_Tech}>
+          Conocimientos en tecnologias del lado del servidor
+        </p>
         <ul>
           <li title="NodeJS">NodeJS</li>
           <li title="Express">Express</li>
@@ -32,9 +41,13 @@ function TechSkill() {
         </ul>
       </div>
       <div>
-        <img src="/h.svg" alt="" />
-        <h2>otras Herramientas</h2>
-        <p>Herramientas que suelo utilizar al desarrollar</p>
+        <Image src="/h.svg" alt="Extras" width={300} height={100} />
+        <p className={style.title_Tech}>
+          <strong>otras Herramientas</strong>
+        </p>
+        <p className={style.p_Tech}>
+          Herramientas que suelo utilizar al desarrollar
+        </p>
         <ul>
           <li title="GitHub">GitHub</li>
           <li title="Git">Git</li>

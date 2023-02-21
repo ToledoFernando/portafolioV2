@@ -11,7 +11,8 @@
     font-size: 40px;
     text-decoration: underline;
 
-    p {
+    h4 {
+      font-size: 40px;
       font-weight: 900;
     }
   }
@@ -33,24 +34,21 @@
     box-shadow: 0px 5px 10px #00000028;
   }
 
-  h1 {
-    font-size: 25px;
-    font-weight: 700;
-    // padding: 10px 0px 0px 10px;
-  }
-
-  h2 {
-    font-size: 18px;
-    font-weight: 400;
-    // padding: 0px 0px 0px 10px;
-  }
-
   .info {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
     justify-content: space-around;
     padding-bottom: 5px;
+
+    .title {
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .sub_title {
+      font-size: 20px;
+      font-weight: 500;
+    }
 
     ul {
       margin-left: 30px;
