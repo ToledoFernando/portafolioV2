@@ -52,7 +52,6 @@ function TechSkill() {
           <li title="GitHub">GitHub</li>
           <li title="Git">Git</li>
           <li title="Visual">Visual Studio Code</li>
-          <li title="Canvas">Canvas</li>
         </ul>
       </div>
       <span className={style.span}></span>
