@@ -1,5 +1,13 @@
 [
   {
+    "title": "ElectronPlayer",
+    "subtitle": "Reproductor de Musica",
+    "info": "Reproductor de musica, tambien puede descargar musica de Youtube usando solo la URL",
+    "tech": "Javascript - ReactJS - Electron - Sass",
+    "repo": "https://github.com/ToledoFernando/ElectronPlayer",
+    "img": "/ElectronPlayer.png"
+  },
+  {
     "title": "PF - Dinamita Hostel",
     "subtitle": "Proyecto Final",
     "info": "Proyecto en el que trabaje junto a otros 6 desarrolladores FullStack del BootCamp SoyHenry",
