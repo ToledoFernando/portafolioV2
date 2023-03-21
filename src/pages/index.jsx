@@ -15,6 +15,7 @@ export default function Home() {
       <Head>
         <title>Toledo Dev | Desarrollador FullStack</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="G3FbbvV7YLFgs5JyKhB3rLUnYSNjr7YUYZ8sp7UxVN0" />
         <meta
           name="description"
           content="Me llamo Toledo Fernando, este es mi portafolio web, aqui podras ver mis proyectos, un breve resumen de quien soy y que es lo que hago. Conocimientos en el Stack PERN y MERN, me gusta la programacion y siempre busco aprender mas"
