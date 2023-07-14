@@ -4,7 +4,7 @@ export const openLK = () => {
 
 export const openCV = () => {
   window.open(
-    "https://drive.google.com/file/d/14Ua6F0fHgycTxAelLKCdwN34661-Hkac/view?usp=sharing"
+    "https://drive.google.com/file/d/1oR1CG7kqP0v-44uq007gip8_Rv1vKMFH/view?usp=sharing"
   );
 };
 
