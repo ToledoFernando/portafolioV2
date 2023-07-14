@@ -1,5 +1,12 @@
 [
   {
+    "title": "ElectronPlayer v2",
+    "subtitle": "Reproductor de Musica",
+    "info": "Reproductor de musica, busca y descarga tu musica preferida.",
+    "tech": "Typescript - ReactJS - Zustand - Electron - Sass",
+    "repo": "https://github.com/ToledoFernando/newElectronPlayer",
+    "img": "/ElectronPlayer2.png"
+  },{
     "title": "ElectronPlayer",
     "subtitle": "Reproductor de Musica",
     "info": "Reproductor de musica, tambien puede descargar musica de Youtube usando solo la URL",
